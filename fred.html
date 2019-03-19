@@ -1,0 +1,454 @@
+<!--<![endif]--><head><style class="vjs-styles-defaults">
+    .video-js {
+      width: 300px;
+      height: 150px;
+    }
+
+    .vjs-fluid {
+      padding-top: 56.25%
+    }
+  </style><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\:form{display:block;}</style>
+        <!--[if lte IE 8]>
+      <script type="text/javascript">
+        // add custom html tag to angular-ui shim
+        window.myCustomTags = [ 'jmedia' ];
+      </script>
+    <![endif]-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+            <meta name="csrf-param" content="__RequestVerificationToken">
+            <meta name="csrf-token" content="gCWMYI8QU6iSQ3bycs8srLXe4IEwmhsfuiPgrR1PJQ2K9tawPfi_TSEtLmNGtwBvOuQ5ooT_gl18PWNdeecPdg1yS5Y1">
+    <title>Modules across all disciplines - Janison CLS</title>
+    <link rel="icon" href="/content/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/content/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/content/images/apple-touch-icon.png">
+<link crossorigin="anonymous" href="//mel0222assessmentsit.blob.core.windows.net/static/cls/0.1.3.59/content/kendo.min.css" rel="stylesheet">
+<link crossorigin="anonymous" href="//mel0222assessmentsit.blob.core.windows.net/static/cls/0.1.3.59/content/videojs.min.css" rel="stylesheet">
+<link crossorigin="anonymous" href="//mel0222assessmentsit.blob.core.windows.net/static/cls/0.1.3.59/content/vendor.min.css" rel="stylesheet">
+<link crossorigin="anonymous" href="//mel0222assessmentsit.blob.core.windows.net/static/cls/0.1.3.59/content/common.min.css" rel="stylesheet">
+<link crossorigin="anonymous" href="//mel0222assessmentsit.blob.core.windows.net/static/cls/0.1.3.59/content/fonts.min.css" rel="stylesheet">
+    <!--[if IE 7]>
+        <link rel="stylesheet" type="text/css" href="/content/ie7.glyphicons.css">
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" crossorigin="anonymous" href="https://mel0222assessmentsit.blob.core.windows.net/objects/rms-sit/skin/janison.web.ui.layout.css?19-3-17-52">
+        <link rel="stylesheet" type="text/css" crossorigin="anonymous" href="https://mel0222assessmentsit.blob.core.windows.net/objects/rms-sit/skin/janison.web.ui.css?19-3-17-52">
+        <link rel="stylesheet" type="text/css" crossorigin="anonymous" href="//mel0222assessmentsit.blob.core.windows.net/static/cls/0.1.3.59/content/janison.web.ui.plugins.css">
+<link crossorigin="anonymous" href="//mel0222assessmentsit.blob.core.windows.net/static/cls/0.1.3.59/content/css/font_awesome_light/font_awesome_light/font-awesome-light.min.css" rel="stylesheet">
+<link crossorigin="anonymous" href="//mel0222assessmentsit.blob.core.windows.net/static/cls/0.1.3.59/app/vendor/simple-scrollbar/simple-scrollbar.min.css" rel="stylesheet">    <link rel="stylesheet" type="text/css" crossorigin="anonymous" href="https://mel0222assessmentsit.blob.core.windows.net/objects/rms-sit/skin/override.css?15-4-56-8">
+    <script type="text/javascript">
+        window.APP_INFO = {
+  "version": "0.1.3.59",
+  "buildDate": "2019-03-19T01:11:00Z",
+  "sessionId": "7cf2c7f4-394a-e911-80c0-0003ff15770b",
+  "userId": "06330609-52ed-e811-80c0-2818787f6972",
+  "userDisplayName": "Sean Griffin",
+  "user": {
+    "givenName": "Sean",
+    "surname": "Griffin",
+    "preferredName": null,
+    "displayName": "Sean Griffin",
+    "userId": "06330609-52ed-e811-80c0-2818787f6972"
+  },
+  "currentUrl": "https://rms-sit.master.janisoncloud.com/design/module/index?menu=Author",
+  "cdnEnabled": true,
+  "cdnPath": "//mel0222assessmentsit.blob.core.windows.net/static/cls/0.1.3.59/",
+  "cdnUrl": "//mel0222assessmentsit.blob.core.windows.net/static/cls/0.1.3.59/",
+  "applicationPath": "/",
+  "logErrorUrl": "/common/error/logjavascripterror",
+  "stringResourcesUrl": null,
+  "debugEnabled": false,
+  "releaseMode": true,
+  "locale": "en",
+  "localeVersion": "en-0.1.3.59-rms-sit-0",
+  "invalidSubdomains": [
+    "",
+    "www",
+    "admin",
+    "administrator",
+    "log",
+    "logging",
+    "elmah",
+    "support",
+    "debug",
+    "diagnostic",
+    "diag",
+    "metric",
+    "register",
+    "registration",
+    "signup",
+    "mail",
+    "webmail",
+    "api",
+    "learning",
+    "messaging",
+    "university"
+  ],
+  "bootstrap": {
+    "control": "control col-sm-8 col-md-9 col-lg-10",
+    "controlOffset": "control-offset col-sm-offset-4 col-md-offset-3 col-lg-offset-2",
+    "label": "control-label col-sm-4 col-md-3 col-lg-2"
+  },
+  "formats": {
+    "angular": {
+      "date": "M/d/yyyy",
+      "dateTime": "M/d/yyyy h:mm a",
+      "time": "h:mm a"
+    },
+    "kendo": {
+      "date": "M/d/yyyy",
+      "dateTime": "M/d/yyyy h:mm tt",
+      "time": "h:mm tt"
+    },
+    "moment": {
+      "date": "M/D/YYYY",
+      "dateTime": "M/D/YYYY h:mm A",
+      "time": "h:mm A"
+    }
+  },
+  "enableAngularJsSanitisation": false
+};
+        window.isSafeExamBrowser = false;
+    </script>
+<script crossorigin="anonymous" src="//mel0222assessmentsit.blob.core.windows.net/static/cls/0.1.3.59/scripts/modernizr-2.6.1.min.js" type="text/javascript"></script>    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <!-- ~/Scripts/iepolyfill.js.bundle -->
+<script crossorigin="anonymous" src="//mel0222assessmentsit.blob.core.windows.net/static/cls/0.1.3.59/scripts/iepolyfill.min.js" type="text/javascript"></script>
+
+    <!--[endif]---->
+
+
+
+
+<style type="text/css"></style></head>
+
+    <body class="module index  main-role_super-admin menu-version-new janison-layout janison-subdomain-rms-sit">
+
+
+
+
+                           <div class="hidden" ng-init="
+                                skinClasses = [
+		                        'accent-color',
+		                        'accent-color-dark',
+		                        'accent-color-light',
+		                        'accent-background-color',
+		                        'accent-background-color-dark',
+		                        'accent-background-color-light'];">
+
+                               <!-- ngRepeat: item in skinClasses --><b ng-repeat="item in skinClasses" ng-class="'skin-' + item" class="ng-scope skin-accent-color"></b><b ng-repeat="item in skinClasses" ng-class="'skin-' + item" class="ng-scope skin-accent-color-dark"></b><b ng-repeat="item in skinClasses" ng-class="'skin-' + item" class="ng-scope skin-accent-color-light"></b><b ng-repeat="item in skinClasses" ng-class="'skin-' + item" class="ng-scope skin-accent-background-color"></b><b ng-repeat="item in skinClasses" ng-class="'skin-' + item" class="ng-scope skin-accent-background-color-dark"></b><b ng-repeat="item in skinClasses" ng-class="'skin-' + item" class="ng-scope skin-accent-background-color-light"></b>
+                           </div>
+
+
+                           <div id="isMobile" class="visible-xs-block"></div>
+
+
+
+
+                           <div id="wrap" screen-resolution="">
+    <nav class="nav-left  author  ng-scope" ng-class="{ 'is-open': ctrl.isOpen }" ng-controller="navMenuCtrl as ctrl">
+        <ul id="top-menu">
+                <li class="top-menu-item_homeleft tooltip-handle right" qtip-classes="menu-tooltip" title="Home" ng-class="{ 'category-is-open': ctrl.category == 'homeleft' &amp;&amp; ctrl.isOpen }" ng-click="ctrl.toggle('homeleft', true)">
+                        <a href="/dashboard/testcentre?menu=Home"><i class=" fal fal-fw fal-home"></i></a>
+                </li>
+                <li class="top-menu-item_designx selected tooltip-handle right" qtip-classes="menu-tooltip" title="Author" ng-class="{ 'category-is-open': ctrl.category == 'designx' &amp;&amp; ctrl.isOpen }" ng-click="ctrl.toggle('designx', false)">
+                        <i class=" fal fal-fw fal-edit"></i>
+                </li>
+                <li class="top-menu-item_manage-people tooltip-handle right" qtip-classes="menu-tooltip" title="People" ng-class="{ 'category-is-open': ctrl.category == 'manage-people' &amp;&amp; ctrl.isOpen }" ng-click="ctrl.toggle('manage-people', false)">
+                        <i class=" fal fal-fw fal-users"></i>
+                </li>
+                <li class="top-menu-item_home23 tooltip-handle right" qtip-classes="menu-tooltip" title="Deliver" ng-class="{ 'category-is-open': ctrl.category == 'home23' &amp;&amp; ctrl.isOpen }" ng-click="ctrl.toggle('home23', false)">
+                        <i class=" fal fal-fw fal-play-circle"></i>
+                </li>
+                <li class="top-menu-item_home234 tooltip-handle right" qtip-classes="menu-tooltip" title="Reports" ng-class="{ 'category-is-open': ctrl.category == 'home234' &amp;&amp; ctrl.isOpen }" ng-click="ctrl.toggle('home234', true)">
+                        <a href="/customisablereports/report/index?menu=Reports"><i class=" fal fal-fw fal-chart-line"></i></a>
+                </li>
+                <li class="top-menu-item_integration tooltip-handle right" qtip-classes="menu-tooltip" title="Integration" ng-class="{ 'category-is-open': ctrl.category == 'integration' &amp;&amp; ctrl.isOpen }" ng-click="ctrl.toggle('integration', false)">
+                        <i class=" fal fal-fw fal-random"></i>
+                </li>
+                <li class="top-menu-item_settings tooltip-handle right" qtip-classes="menu-tooltip" title="Settings" ng-class="{ 'category-is-open': ctrl.category == 'settings' &amp;&amp; ctrl.isOpen }" ng-click="ctrl.toggle('settings', false)">
+                        <i class=" fal fal-fw fal-cog"></i>
+                </li>
+
+                <li class="top-menu-item_go-to tooltip-handle right" qtip-classes="menu-tooltip" title="Go to page" ng-class="{ 'category-is-open': ctrl.category == 'go-to' &amp;&amp; ctrl.isOpen }" ng-click="ctrl.toggle('go-to')">
+                    <i class="fal fal-fw fal-external-link-alt"></i>
+                </li>
+        </ul>
+
+        <div class="bottom-menu dropup">
+                    <div class="dropdown dropdown-quick-add">
+                        <div class="dropdown-toggle dropdown-menu-initiated" type="button" id="quick-actions-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fal fa-plus-circle fa-3x"></i>
+                        </div>
+                        <ul class="dropdown-menu">
+                                <li>
+                                    <a href="/organisation/user/create" class="item-extra-action">Add User</a>
+                                </li>
+                                <li>
+                                    <a href="/quiz/question/create" class="item-extra-action">Add Item</a>
+                                </li>
+                                <li>
+                                    <a href="/assessmentevents/event/create/Session" class="item-extra-action">Add Session Based Assessment Event</a>
+                                </li>
+                                <li>
+                                    <a href="/assessmentevents/session/administration" class="item-extra-action">Create Test Session</a>
+                                </li>
+                        </ul>
+                    </div>
+
+
+            <div class="dropdown">
+                <div class="dropdown-toggle dropdown-menu-initiated" type="button" id="menu-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                    <img class="user-portrait" src="/Content/images/default-portrait-male.png" alt="Sean Griffin" image-failover="/Content/images/default-portrait-male.png">
+                </div>
+                <ul class="dropdown-menu">
+<li class="top-menu-item_my-account standard-feature first-standard-feature"><a class="my-account" href="/organisation/user/details/06330609-52ed-e811-80c0-2818787f6972"><i class="fal fal-fw fal-user"></i>My Account</a></li>
+
+
+
+                    <li role="separator" class="divider"></li>
+
+                    <li class="top-menu-item_logout">
+                        <a class="logout" href="/auth/logout">
+                            <i class="fal fal-fw fal-sign-out"></i>Logout
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="side-menu ss-container" ss-container=""><div class="ss-wrapper scroll-hidden"><div class="ss-content scroll-hidden">
+            <!-- ngIf: ctrl.category -->
+
+                <div class="menu-search-container ng-hide" ng-show="ctrl.category == 'go-to'">
+                    <div class="sub-menu">
+                            <h2 class="first">
+                                Go to page
+                            </h2>
+                            <nav-search class="menu-go-to-page  ng-isolate-scope ng-scope" is-inline="true">
+<div ng-show="$ctrl.active" class="nav-search-container animated animated-200 fadeIn" ng-class="{ 'fadeIn': $ctrl.active }">
+    <div class="nav-search col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+        <button ng-click="$ctrl.toggle(false)" type="button" class="close" aria-hidden="true">×</button>
+        <h2 class="ng-binding"><i class="icon-search pre"></i>Go to page</h2>
+        <span class="twitter-typeahead" style="position: relative; display: inline-block;"><input typeahead="$ctrl.typeaheadOptions" typeahead-data="$ctrl.suggestions" jui-focus="$ctrl.active" ng-model="$ctrl.searchTerm" type="search" class="form-control typeahead nav-search-input ng-pristine ng-valid tt-hint" readonly="" autocomplete="off" spellcheck="false" tabindex="-1" style="position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; opacity: 1; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);" dir="ltr"><input typeahead="$ctrl.typeaheadOptions" typeahead-data="$ctrl.suggestions" placeholder="" jui-focus="$ctrl.active" ng-model="$ctrl.searchTerm" type="search" class="form-control typeahead nav-search-input ng-pristine ng-valid tt-input" autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top; background-color: rgba(0, 0, 0, 0);"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><div class="tt-menu" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none;"><div class="tt-dataset tt-dataset-0"></div></div></span>
+    </div>
+</div>
+</nav-search>
+
+    <div recently-viewed="" class="ng-isolate-scope ng-scope"><!-- ngIf: menuVersion == 'New' && !showGoToPage -->
+
+<div class="recently-viewed-sidebar is-loaded" ng-class="{ 'is-loaded': !viewed.loaded }">
+    <!-- ngIf: !viewed.loaded || !!loadWhenReady --><a class="recently-viewed-link ng-scope ng-binding" ng-if="!viewed.loaded || !!loadWhenReady" ng-click="loadRecentlyViewed()"><!-- ngIf: menuVersion != 'New' --> Show Recently Viewed</a>
+
+    <div class="loading-placeholder xsmall ng-hide" ng-class="{ 'spinner-inline': spinnerInline }" ng-show="isSpinnerVisible" loading-notification="viewed.loading" spinner-size="xsmall">
+
+    <!-- ngIf: useOldSpinner -->
+
+    <!-- ngIf: !useOldSpinner && isSpinnerVisible -->
+    <label ng-bind="label | i18n" class="ng-binding"></label>
+</div>
+
+    <!-- ngIf: viewed.loaded -->
+</div>
+</div>
+                    </div>
+                </div>
+
+                <!-- ngIf: ctrl.category == 'homeleft' && ctrl.category != 'go-to' -->
+                <!-- ngIf: ctrl.category == 'designx' && ctrl.category != 'go-to' -->
+                <!-- ngIf: ctrl.category == 'manage-people' && ctrl.category != 'go-to' -->
+                <!-- ngIf: ctrl.category == 'home23' && ctrl.category != 'go-to' -->
+                <!-- ngIf: ctrl.category == 'home234' && ctrl.category != 'go-to' -->
+                <!-- ngIf: ctrl.category == 'integration' && ctrl.category != 'go-to' -->
+                <!-- ngIf: ctrl.category == 'settings' && ctrl.category != 'go-to' -->
+        </div></div><div class="ss-scroll ss-hidden"></div></div>
+    </nav>
+
+                                   <header id="header">
+                                       <div class="inner cf">
+                                               <a href="/" class="logo-link">
+        <img src="/janison.objects/rms-sit/Skin/logo.png" id="logo" alt="Janison Web Portal">
+    </a>
+        <div id="account-info" class="hidden-xs">
+            <a class="user-name" href="/organisation/user/details/06330609-52ed-e811-80c0-2818787f6972"><span class="hidden">Sean Griffin</span></a><a href="/organisation/user/details/06330609-52ed-e811-80c0-2818787f6972" class="user-details"><div class="user-caption">Sean Griffin</div><div class="main-role">Super Administrator</div><div class="org-unit">(default)</div></a>
+        </div>
+
+                                       </div>
+                                   </header>
+                                       <div sticky-notes=""><div id="sticky-notes">
+    <!-- ngRepeat: note in stickyNotes.notes track by $index -->
+</div></div>
+                               <div id="main" class="cf container-fluid">
+                                   <div class="row">
+                                       <div id="content" class="  col-lg-12 col-md-12 col-sm-12 form-horizontal">
+                                           <div id="jError"></div>
+                                               <div ng-controller="SystemNotificationsCtrl" class="sys-notifications-container ng-scope ng-hide" ng-init="init({&quot;options&quot;:{&quot;getSystemNotificationsUrl&quot;:&quot;TODO&quot;}})" ng-show="data.items.length > 0">
+                                                   <!-- ngRepeat: item in data.items -->
+                                               </div>
+
+
+
+
+
+
+	<div class="content-header cf"><div class="btn-group header-buttons">
+            <button class="btn button dropdown-toggle btn-primary dropdown-menu-initiated">Actions <span class="caret"></span></button>
+			<ul class="dropdown-menu pull-right" role="menu" aria-labelledby="dropdownMenu">
+					<li class="dropdown-menu-item-has-icon"><a class="add" href="/design/module/create">Add Assessment Module</a></li>
+					<li class="dropdown-menu-item-has-icon"><a href="/editor/modules/create">Add Learning Module</a></li>
+					<li class="dropdown-menu-item-has-icon"><a href="/editor/modules/create?type=CustomPagesModule">Add Custom Pages Module</a></li>
+					<li class="dropdown-menu-item-has-icon"><a href="/design/module/importmodule">Import Module</a></li>
+					<li class="dropdown-menu-item-has-icon"><a href="/importmodule/module/index">Import Module from spreadsheet</a></li>
+			</ul>
+		</div>
+
+		<h1 title="Modules across all disciplines">
+			Modules across all disciplines
+		</h1>
+
+        	</div>
+    <div class="split-button" style="display:none;">
+        <button id="btnAdd" class="primary-button">Add</button>
+        <span class="nav">
+            <button id="btnMoreOptions" class="dropdown-button button ir">More options...</button>
+            <ul id="more-actions-menu" class="drop-menu">
+                <li><a class="manage selected" href="/activity/activities/index"><i></i>Manage</a></li>
+                <li><a class="dashboard" href="/mylearning/dashboard/index"><i></i>Dashboard</a></li>
+                <li><a class="deliver" href="/mylearning/dashboard/index"><i></i>Deliver</a></li>
+                <li><a class="library" href="/mylearning/catalogue/index"><i></i>Library</a></li>
+                <li><a class="design" href="/activity/activities/index?_cat=4"><i></i>Design</a></li>
+                <li><a class="my-account" href="/organisation/user/&#10;                    /03626d0c-73b6-41ca-a8eb-975a4a4c0316/0"><i></i>My Account</a></li>
+                <li><a class="logout" href="/auth/logout"><i></i>Logout</a></li>
+            </ul>
+        </span>
+    </div>
+    <div class="content-filter-main cf" style="display:none;">
+
+
+
+    </div>
+	<div class="content-body">
+    <div id="GridViewData" class="grid-view-data" style="display:none">{"searchParams":"{\"sort\":null,\"taggedWith\":null,\"listType\":\"Index\",\"filterOptions\":null,\"tab\":\"All\",\"page\":1,\"pageSize\":20,\"parentId\":null,\"inactive\":null,\"exportAs\":null,\"nameFilter\":null,\"createdAfter\":null,\"createdBefore\":null,\"hiddenSearchFields\":[],\"columns\":[],\"advancedFilterJson\":null,\"TaggedWith\":\"\"}","tabInfo":{"paramName":"tab","paramDefaultValue":"All","entityId":null,"entityName":null,"tabDataURL":"/design/module/_tabdata/","batchActionURL":null,"parentEntityName":null},"searchInfo":{"searchText":"Modules","useDateRange":false,"useName":null,"textForDatePlaceHolder":null,"textForNamePlaceHolder":null,"noItemsText":null,"defaultKeywordSearch":null,"gridName":"Grid","tabStripName":"TabStrip","expandPanel":false,"disableAutoSearch":false,"ngInitCompleted":null,"ngBinding":null,"ngPerformSearch":null,"ngResetSearch":null,"disableAutoActivate":false,"resetSearchToDefaultValues":false,"isCompleteSearchText":false,"exportModel":{"description":"Please select the columns you want to include:","exportUrl":null,"maxExportRows":50000,"columns":null}},"additionalSearchFields":null,"gridExportModel":null,"gridName":"Grid","tabStripName":"TabStrip","expandPanel":false,"disableStoringSearchCriteria":false}</div>
+    <form jui-search-panel="" class="search-panel ng-scope ng-pristine ng-valid" novalidate="novalidate" style="display: block;">
+        <h3 class="search-header">Search for Modules</h3>
+        <div class="restore-search"><a><i class="icon-restart"></i> Restore your previous search</a></div>
+        <div class="search-body" style="display: block;">
+            <div class="search-fields">
+<div class="search-box-container cf">                                <div class="search-box-container search-nameFilter">
+                                    <input type="search" id="search-nameFilter" data-search-field-type="TextBox" class="with-icon search-textbox" value="" placeholder="Search for Modules">
+                                    <a href="#" id="search-nameFilter-reset" class="clear-search-input"><i class="icon-remove"></i><span class="vh">Clear</span></a>
+                                </div>
+</div>            </div>
+            <div class="footer">
+                <div class="btn-group">
+            <button type="submit" class="button btn search single btn-primary" id="btnPerformSearch" jui-loading-lock=""><span class="btn-text">Search <i class="fa fa-search sl post"></i> </span><span class="btn-loading-text" style="display: none;"><i class="spinner"></i>Processing...</span></button>
+                </div>
+                <a id="btnResetSearch" ng-click="" class="reset" href="#">Reset Search</a>
+            </div>
+        </div>
+    <input name="__RequestVerificationToken" type="hidden" value="gCWMYI8QU6iSQ3bycs8srLXe4IEwmhsfuiPgrR1PJQ2K9tawPfi_TSEtLmNGtwBvOuQ5ooT_gl18PWNdeecPdg1yS5Y1"></form>
+    <div class="tab-panel design-modules">
+        <div class="k-tabstrip-wrapper" style=""><div class="k-widget k-tabstrip k-header k-floatwrap k-tabstrip-top" id="TabStrip" data-role="tabstrip" tabindex="0" role="tablist" aria-activedescendant="TabStrip_ts_active"><ul class="k-reset k-tabstrip-items"><li class="k-item k-state-default k-first k-tab-on-top k-state-active" data-filter-param="All" role="tab" aria-controls="TabStrip-1" aria-selected="true" id="TabStrip_ts_active"><span class="k-loading k-complete"></span><span class="k-link">All<span style="padding-left: 4px">(<span class="counter">505</span>)</span></span></li><li class="k-item k-state-default" data-filter-param="AssessmentModules" role="tab" aria-controls="TabStrip-2"><span class="k-loading k-complete"></span><span class="k-link">Assessment Modules<span style="padding-left: 4px">(<span class="counter">503</span>)</span></span></li><li class="k-item k-state-default" data-filter-param="LearningModules" role="tab" aria-controls="TabStrip-3"><span class="k-loading k-complete"></span><span class="k-link">Learning Modules<span style="padding-left: 4px">(<span class="counter">0</span>)</span></span></li><li class="k-item k-state-default k-last" data-filter-param="CustomPagesModules" role="tab" aria-controls="TabStrip-4"><span class="k-loading k-complete"></span><span class="k-link">Custom Pages Modules<span style="padding-left: 4px">(<span class="counter">2</span>)</span></span></li></ul><div class="k-content k-state-active" id="TabStrip-1" style="display: block;" role="tabpanel" aria-expanded="true"><div class="k-widget k-grid grid-container design-modules" id="Grid_1" data-role="jangrid"><div class="jui-grid-callout callout callout-info ng-scope ng-binding" style="display: none;">No items to display.</div><table role="grid" style="display: table;"><colgroup><col style="width:40px"><col><col></colgroup><thead class="k-grid-header" role="rowgroup"><tr role="row" class="ng-scope"><th class="k-header" data-field="IconClass" data-index="0" data-title="" scope="col" data-role="columnsorter"><a class="k-link" href="/design/Module/_grid?page=&amp;menu=Author&amp;Grid-sort=IconClass-asc">&nbsp;</a></th><th class="k-header" data-field="DisplayName" data-index="1" data-title="Display Name" scope="col" data-role="columnsorter" data-dir="asc" aria-sort="ascending"><a class="k-link" href="/design/Module/_grid?page=&amp;menu=Author&amp;Grid-sort=DisplayName-desc">Display Name<span class="k-icon k-i-arrow-n"></span></a></th><th class="k-header" data-field="LastUpdatedOn" data-index="2" data-title="Last Updated On" scope="col" data-role="columnsorter"><a class="k-link" href="/design/Module/_grid?page=&amp;menu=Author&amp;Grid-sort=LastUpdatedOn-asc">Last Updated On</a></th></tr></thead><tbody role="rowgroup"><tr data-uid="4100ba99-d7c5-439d-beae-beca684fb80a" role="row" class="ng-scope"><td role="gridcell"><i class="fa ja-fa-assessmentmodule icon-32"></i></td><td class="standout-column" role="gridcell"><span><a href="/design/module/000AllTypeImport/details" class="list-item-title">000AllTypeImport</a> in <a href="/design/discipline/000landiscipline/details">000LanDiscipline</a><br> contains <a href="/resource/module/fbcbb9ca-dd13-e911-80c0-28187838486c">Resources (50)</a>, <a href="/stimulus/module/fbcbb9ca-dd13-e911-80c0-28187838486c">Stimuli (0)</a>, <a href="/quiz/question/module/fbcbb9ca-dd13-e911-80c0-28187838486c">Items (33)</a>, <a href="/design/testsection/module/fbcbb9ca-dd13-e911-80c0-28187838486c">Test Sections (8)</a>, <a href="/design/test/module/fbcbb9ca-dd13-e911-80c0-28187838486c">Tests  (10)</a></span></td><td role="gridcell"><span class="list-item-type">04 Mar</span></td></tr><tr class="k-alt ng-scope" data-uid="11e0ca3d-0fbc-4024-8517-765167a982d0" role="row"><td role="gridcell"><i class="fa ja-fa-assessmentmodule icon-32"></i></td><td class="standout-column" role="gridcell"><span><a href="/design/module/000AllTypeImport-copy-3/details" class="list-item-title">000AllTypeImport (Copy 3)</a> in <a href="/design/discipline/000landiscipline/details">000LanDiscipline</a><br> contains <a href="/resource/module/7235b832-7c15-e911-80c0-2818780fa70f">Resources (0)</a>, <a href="/stimulus/module/7235b832-7c15-e911-80c0-2818780fa70f">Stimuli (0)</a>, <a href="/quiz/question/module/7235b832-7c15-e911-80c0-2818780fa70f">Items (0)</a>, <a href="/design/testsection/module/7235b832-7c15-e911-80c0-2818780fa70f">Test Sections (0)</a>, <a href="/design/test/module/7235b832-7c15-e911-80c0-2818780fa70f">Tests  (0)</a></span></td><td role="gridcell"><span class="list-item-type">04 Mar</span></td></tr><tr data-uid="22f2b7e7-4902-42ba-ac9e-a6a687858d36" role="row" class="ng-scope"><td role="gridcell"><i class="fa ja-fa-assessmentmodule icon-32"></i></td><td class="standout-column" role="gridcell"><span><a href="/design/module/000AllTypeImport-copy-4/details" class="list-item-title">000AllTypeImport (Copy 4)</a> in <a href="/design/discipline/000landiscipline/details">000LanDiscipline</a><br> contains <a href="/resource/module/52bc2a7e-7e15-e911-80c0-2818780fa70f">Resources (166)</a>, <a href="/stimulus/module/52bc2a7e-7e15-e911-80c0-2818780fa70f">Stimuli (0)</a>, <a href="/quiz/question/module/52bc2a7e-7e15-e911-80c0-2818780fa70f">Items (143)</a>, <a href="/design/testsection/module/52bc2a7e-7e15-e911-80c0-2818780fa70f">Test Sections (14)</a>, <a href="/design/test/module/52bc2a7e-7e15-e911-80c0-2818780fa70f">Tests  (15)</a></span></td><td role="gridcell"><span class="list-item-type">04 Mar</span></td></tr><tr class="k-alt ng-scope" data-uid="64da0df6-38cc-49a6-b5b9-521bbd26dd74" role="row"><td role="gridcell"><i class="fa ja-fa-assessmentmodule icon-32"></i></td><td class="standout-column" role="gridcell"><span><a href="/design/module/000RMS-967/details" class="list-item-title">000RMS-967</a> in <a href="/design/discipline/000landiscipline/details">000LanDiscipline</a><br> contains <a href="/resource/module/3ab29afd-dc17-e911-80c0-2818780fa6f3">Resources (0)</a>, <a href="/stimulus/module/3ab29afd-dc17-e911-80c0-2818780fa6f3">Stimuli (0)</a>, <a href="/quiz/question/module/3ab29afd-dc17-e911-80c0-2818780fa6f3">Items (0)</a>, <a href="/design/testsection/module/3ab29afd-dc17-e911-80c0-2818780fa6f3">Test Sections (0)</a>, <a href="/design/test/module/3ab29afd-dc17-e911-80c0-2818780fa6f3">Tests  (0)</a></span></td><td role="gridcell"><span class="list-item-type">04 Mar</span></td></tr><tr data-uid="e4da44b6-f6b5-416a-b644-cb4cd2c8042b" role="row" class="ng-scope"><td role="gridcell"><i class="fa ja-fa-assessmentmodule icon-32"></i></td><td class="standout-column" role="gridcell"><span><a href="/design/module/0lan-module/details" class="list-item-title">0Lan Module</a> in <a href="/design/discipline/000landiscipline/details">000LanDiscipline</a><br> contains <a href="/resource/module/22c735b0-48ac-e811-80c0-281878381b48">Resources (0)</a>, <a href="/stimulus/module/22c735b0-48ac-e811-80c0-281878381b48">Stimuli (0)</a>, <a href="/quiz/question/module/22c735b0-48ac-e811-80c0-281878381b48">Items (0)</a>, <a href="/design/testsection/module/22c735b0-48ac-e811-80c0-281878381b48">Test Sections (0)</a>, <a href="/design/test/module/22c735b0-48ac-e811-80c0-281878381b48">Tests  (0)</a></span></td><td role="gridcell"><span class="list-item-type">04 Mar</span></td></tr><tr class="k-alt ng-scope" data-uid="81c61776-cad5-4ac7-98e5-73d8bc26211a" role="row"><td role="gridcell"><i class="fa ja-fa-assessmentmodule icon-32"></i></td><td class="standout-column" role="gridcell"><span><a href="/design/module/20190114dkt/details" class="list-item-title">20190114DKT</a> in <a href="/design/discipline/20190114/details">20190114</a><br> contains <a href="/resource/module/978dbcfa-b217-e911-80c0-0003fffe1967">Resources (50)</a>, <a href="/stimulus/module/978dbcfa-b217-e911-80c0-0003fffe1967">Stimuli (0)</a>, <a href="/quiz/question/module/978dbcfa-b217-e911-80c0-0003fffe1967">Items (16)</a>, <a href="/design/testsection/module/978dbcfa-b217-e911-80c0-0003fffe1967">Test Sections (0)</a>, <a href="/design/test/module/978dbcfa-b217-e911-80c0-0003fffe1967">Tests  (0)</a></span></td><td role="gridcell"><span class="list-item-type">14 Jan</span></td></tr><tr data-uid="90d6cb8c-5999-4d88-8a03-5fe1745f1865" role="row" class="ng-scope"><td role="gridcell"><i class="fa ja-fa-assessmentmodule icon-32"></i></td><td class="standout-column" role="gridcell"><span><a href="/design/module/algebra/details" class="list-item-title">Algebra</a> in <a href="/design/discipline/mathematics/details">Mathematics</a><br> contains <a href="/resource/module/c30ddc91-cfeb-e811-80c0-2818787fbbc4">Resources (14)</a>, <a href="/stimulus/module/c30ddc91-cfeb-e811-80c0-2818787fbbc4">Stimuli (2)</a>, <a href="/quiz/question/module/c30ddc91-cfeb-e811-80c0-2818787fbbc4">Items (38)</a>, <a href="/design/testsection/module/c30ddc91-cfeb-e811-80c0-2818787fbbc4">Test Sections (22)</a>, <a href="/design/test/module/c30ddc91-cfeb-e811-80c0-2818787fbbc4">Tests  (9)</a></span></td><td role="gridcell"><span class="list-item-type">23 Jan</span></td></tr><tr class="k-alt ng-scope" data-uid="c5b4885c-943b-4cf9-b3aa-3057f0396026" role="row"><td role="gridcell"><i class="fa ja-fa-assessmentmodule icon-32"></i></td><td class="standout-column" role="gridcell"><span><a href="/design/module/ant-module/details" class="list-item-title">Ant Module</a> in <a href="/design/discipline/ant-discipline/details">Ant Discipline</a><br> contains <a href="/resource/module/83f4ee31-60ed-e811-80c0-2818787f6972">Resources (14)</a>, <a href="/stimulus/module/83f4ee31-60ed-e811-80c0-2818787f6972">Stimuli (0)</a>, <a href="/quiz/question/module/83f4ee31-60ed-e811-80c0-2818787f6972">Items (64)</a>, <a href="/design/testsection/module/83f4ee31-60ed-e811-80c0-2818787f6972">Test Sections (58)</a>, <a href="/design/test/module/83f4ee31-60ed-e811-80c0-2818787f6972">Tests  (30)</a></span></td><td role="gridcell"><span class="list-item-type">21 Nov 2018</span></td></tr><tr data-uid="1d3b983f-1181-4718-a584-fbcd39b2008a" role="row" class="ng-scope"><td role="gridcell"><i class="fa ja-fa-assessmentmodule icon-32"></i></td><td class="standout-column" role="gridcell"><span><a href="/design/module/bobo_test_mod01/details" class="list-item-title">bobo_test_mod01</a> in <a href="/design/discipline/bobo_test_disc/details">bobo_test_disc</a><br> contains <a href="/resource/module/0462c413-4312-e911-80c0-2818780f4e70">Resources (16)</a>, <a href="/stimulus/module/0462c413-4312-e911-80c0-2818780f4e70">Stimuli (0)</a>, <a href="/quiz/question/module/0462c413-4312-e911-80c0-2818780f4e70">Items (13)</a>, <a href="/design/testsection/module/0462c413-4312-e911-80c0-2818780f4e70">Test Sections (6)</a>, <a href="/design/test/module/0462c413-4312-e911-80c0-2818780f4e70">Tests  (4)</a></span></td><td role="gridcell"><span class="list-item-type">07 Jan</span></td></tr><tr class="k-alt ng-scope" data-uid="ff4b58e0-6186-4939-9d4f-ee483ad181e0" role="row"><td role="gridcell"><i class="fa ja-fa-assessmentmodule icon-32"></i></td><td class="standout-column" role="gridcell"><span><a href="/design/module/bobo_test_mod02/details" class="list-item-title">bobo_test_mod02</a> in <a href="/design/discipline/bobo_test_disc/details">bobo_test_disc</a><br> contains <a href="/resource/module/8853643c-6d18-e911-80c0-2818787fa66d">Resources (0)</a>, <a href="/stimulus/module/8853643c-6d18-e911-80c0-2818787fa66d">Stimuli (0)</a>, <a href="/quiz/question/module/8853643c-6d18-e911-80c0-2818787fa66d">Items (9)</a>, <a href="/design/testsection/module/8853643c-6d18-e911-80c0-2818787fa66d">Test Sections (4)</a>, <a href="/design/test/module/8853643c-6d18-e911-80c0-2818787fa66d">Tests  (4)</a></span></td><td role="gridcell"><span class="list-item-type">15 Jan</span></td></tr><tr data-uid="eafd9815-dfa5-47ce-b39c-cac28c466531" role="row" class="ng-scope"><td role="gridcell"><i class="fa ja-fa-assessmentmodule icon-32"></i></td><td class="standout-column" role="gridcell"><span><a href="/design/module/bobo_test_mod03/details" class="list-item-title">bobo_test_mod03</a> in <a href="/design/discipline/bobo_test_disc/details">bobo_test_disc</a><br> contains <a href="/resource/module/71a366e9-9718-e911-80c0-2818780f13dc">Resources (0)</a>, <a href="/stimulus/module/71a366e9-9718-e911-80c0-2818780f13dc">Stimuli (0)</a>, <a href="/quiz/question/module/71a366e9-9718-e911-80c0-2818780f13dc">Items (4)</a>, <a href="/design/testsection/module/71a366e9-9718-e911-80c0-2818780f13dc">Test Sections (2)</a>, <a href="/design/test/module/71a366e9-9718-e911-80c0-2818780f13dc">Tests  (3)</a></span></td><td role="gridcell"><span class="list-item-type">15 Jan</span></td></tr><tr class="k-alt ng-scope" data-uid="94079dc2-abb1-43fb-9b8d-e87b3c89ba93" role="row"><td role="gridcell"><i class="fa ja-fa-assessmentmodule icon-32"></i></td><td class="standout-column" role="gridcell"><span><a href="/design/module/bobo2_test_mod01/details" class="list-item-title">bobo2_test_mod01</a> in <a href="/design/discipline/bobo_test_disc_2/details">bobo_test_disc_2</a><br> contains <a href="/resource/module/67e7d6cf-7718-e911-80c0-2818780f13dc">Resources (1)</a>, <a href="/stimulus/module/67e7d6cf-7718-e911-80c0-2818780f13dc">Stimuli (0)</a>, <a href="/quiz/question/module/67e7d6cf-7718-e911-80c0-2818780f13dc">Items (10)</a>, <a href="/design/testsection/module/67e7d6cf-7718-e911-80c0-2818780f13dc">Test Sections (6)</a>, <a href="/design/test/module/67e7d6cf-7718-e911-80c0-2818780f13dc">Tests  (4)</a></span></td><td role="gridcell"><span class="list-item-type">30 Jan</span></td></tr><tr data-uid="e877e6e9-1b9e-4a54-801d-19d6e936ee9a" role="row" class="ng-scope"><td role="gridcell"><i class="fa ja-fa-custompagesmodule icon-32"></i></td><td class="standout-column" role="gridcell"><span><a href="/editor/modules/details/459e7939-2125-e911-80c0-0003fffe254d" class="list-item-title">Custom Page Module</a> in <a href="/design/discipline/custom-page-modules/details">Custom Page Modules</a><br> contains <a href="/editor/content/module/459e7939-2125-e911-80c0-0003fffe254d">Pages (1)</a>, <a href="/stimulus/module/459e7939-2125-e911-80c0-0003fffe254d">Stimuli (0)</a></span></td><td role="gridcell"><span class="list-item-type">31 Jan</span></td></tr><tr class="k-alt ng-scope" data-uid="9611943c-82a6-4980-b952-e487a59c06de" role="row"><td role="gridcell"><i class="fa ja-fa-assessmentmodule icon-32"></i></td><td class="standout-column" role="gridcell"><span><a href="/design/module/cute-australian-animals/details" class="list-item-title">Cute Australian Animals</a> in <a href="/design/discipline/cute-australian-animals/details">Cute Australian Animals</a><br> contains <a href="/resource/module/23f0160c-3c83-e811-80c0-00155d3470ec">Resources (1)</a>, <a href="/stimulus/module/23f0160c-3c83-e811-80c0-00155d3470ec">Stimuli (0)</a>, <a href="/quiz/question/module/23f0160c-3c83-e811-80c0-00155d3470ec">Items (12)</a>, <a href="/design/testsection/module/23f0160c-3c83-e811-80c0-00155d3470ec">Test Sections (14)</a>, <a href="/design/test/module/23f0160c-3c83-e811-80c0-00155d3470ec">Tests  (7)</a></span></td><td role="gridcell"><span class="list-item-type">04 Mar</span></td></tr><tr data-uid="8dc5bf7b-fa54-4631-b77f-2396178f8b34" role="row" class="ng-scope"><td role="gridcell"><i class="fa ja-fa-assessmentmodule icon-32"></i></td><td class="standout-column" role="gridcell"><span><a href="/design/module/datacreate00016pz6ykezb0e/details" class="list-item-title">DATACREATE00016PZ6YkeZB0E</a> in <a href="/design/discipline/datacreate0001lnskx6uxfyk/details">DATACREATE0001lnsKx6uXFyk</a><br> contains <a href="/resource/module/6f7e3a4a-b72e-e911-80c0-0003fffe65da">Resources (0)</a>, <a href="/stimulus/module/6f7e3a4a-b72e-e911-80c0-0003fffe65da">Stimuli (0)</a>, <a href="/quiz/question/module/6f7e3a4a-b72e-e911-80c0-0003fffe65da">Items (0)</a>, <a href="/design/testsection/module/6f7e3a4a-b72e-e911-80c0-0003fffe65da">Test Sections (0)</a>, <a href="/design/test/module/6f7e3a4a-b72e-e911-80c0-0003fffe65da">Tests  (1)</a></span></td><td role="gridcell"><span class="list-item-type">12 Feb</span></td></tr><tr class="k-alt ng-scope" data-uid="cb0b1d15-4b07-485b-a998-820f4953b5eb" role="row"><td role="gridcell"><i class="fa ja-fa-assessmentmodule icon-32"></i></td><td class="standout-column" role="gridcell"><span><a href="/design/module/datacreate0001bd4bikw2xqw/details" class="list-item-title">DATACREATE0001BD4Bikw2Xqw</a> in <a href="/design/discipline/datacreate0001a9xdmpdccio/details">DATACREATE0001a9XDMpDCCIo</a><br> contains <a href="/resource/module/d1df4764-b62e-e911-80c0-0003fffe65da">Resources (0)</a>, <a href="/stimulus/module/d1df4764-b62e-e911-80c0-0003fffe65da">Stimuli (0)</a>, <a href="/quiz/question/module/d1df4764-b62e-e911-80c0-0003fffe65da">Items (0)</a>, <a href="/design/testsection/module/d1df4764-b62e-e911-80c0-0003fffe65da">Test Sections (0)</a>, <a href="/design/test/module/d1df4764-b62e-e911-80c0-0003fffe65da">Tests  (1)</a></span></td><td role="gridcell"><span class="list-item-type">12 Feb</span></td></tr><tr data-uid="0f49ec1a-5e95-4afd-9d76-f5e0c68e2e8d" role="row" class="ng-scope"><td role="gridcell"><i class="fa ja-fa-assessmentmodule icon-32"></i></td><td class="standout-column" role="gridcell"><span><a href="/design/module/datacreate0001ddzwldple2y/details" class="list-item-title">DATACREATE0001DdZwLdPlE2Y</a> in <a href="/design/discipline/datacreate0001hslb5dpzsjy/details">DATACREATE0001HSLb5DpzsJY</a><br> contains <a href="/resource/module/5839233e-2030-e911-80c0-0003fffe3137">Resources (0)</a>, <a href="/stimulus/module/5839233e-2030-e911-80c0-0003fffe3137">Stimuli (0)</a>, <a href="/quiz/question/module/5839233e-2030-e911-80c0-0003fffe3137">Items (0)</a>, <a href="/design/testsection/module/5839233e-2030-e911-80c0-0003fffe3137">Test Sections (11)</a>, <a href="/design/test/module/5839233e-2030-e911-80c0-0003fffe3137">Tests  (2)</a></span></td><td role="gridcell"><span class="list-item-type">14 Feb</span></td></tr><tr class="k-alt ng-scope" data-uid="af3ebbf1-0661-4975-81d6-11f852de1d79" role="row"><td role="gridcell"><i class="fa ja-fa-assessmentmodule icon-32"></i></td><td class="standout-column" role="gridcell"><span><a href="/design/module/datacreate0001e8j3tta6iza/details" class="list-item-title">DATACREATE0001e8j3TtA6iZA</a> in <a href="/design/discipline/datacreate0001bwvmmtw7tai/details">DATACREATE0001bWVMmtW7TaI</a><br> contains <a href="/resource/module/2146d064-ba2e-e911-80c0-0003fffe65da">Resources (0)</a>, <a href="/stimulus/module/2146d064-ba2e-e911-80c0-0003fffe65da">Stimuli (0)</a>, <a href="/quiz/question/module/2146d064-ba2e-e911-80c0-0003fffe65da">Items (0)</a>, <a href="/design/testsection/module/2146d064-ba2e-e911-80c0-0003fffe65da">Test Sections (6)</a>, <a href="/design/test/module/2146d064-ba2e-e911-80c0-0003fffe65da">Tests  (1)</a></span></td><td role="gridcell"><span class="list-item-type">12 Feb</span></td></tr><tr data-uid="fb50cd57-3705-4ba7-a54d-9bc1fcd2638a" role="row" class="ng-scope"><td role="gridcell"><i class="fa ja-fa-assessmentmodule icon-32"></i></td><td class="standout-column" role="gridcell"><span><a href="/design/module/datacreate0001e8vpxsguboo/details" class="list-item-title">DATACREATE0001e8vpxSGUboo</a> in <a href="/design/discipline/datacreate0001par8yzt85oo/details">DATACREATE0001par8Yzt85Oo</a><br> contains <a href="/resource/module/210b46c1-b72e-e911-80c0-0003fffe65da">Resources (0)</a>, <a href="/stimulus/module/210b46c1-b72e-e911-80c0-0003fffe65da">Stimuli (0)</a>, <a href="/quiz/question/module/210b46c1-b72e-e911-80c0-0003fffe65da">Items (0)</a>, <a href="/design/testsection/module/210b46c1-b72e-e911-80c0-0003fffe65da">Test Sections (4)</a>, <a href="/design/test/module/210b46c1-b72e-e911-80c0-0003fffe65da">Tests  (1)</a></span></td><td role="gridcell"><span class="list-item-type">12 Feb</span></td></tr><tr class="k-alt ng-scope" data-uid="0fafd81c-96ea-4247-962b-790dd4c91a20" role="row"><td role="gridcell"><i class="fa ja-fa-assessmentmodule icon-32"></i></td><td class="standout-column" role="gridcell"><span><a href="/design/module/datacreate0001g6bfpoql634/details" class="list-item-title">DATACREATE0001G6bfPOql634</a> in <a href="/design/discipline/datacreate0001ovm2tw8cemo/details">DATACREATE0001ovM2tw8CEmo</a><br> contains <a href="/resource/module/abcbe1fb-b82e-e911-80c0-0003fffe3137">Resources (0)</a>, <a href="/stimulus/module/abcbe1fb-b82e-e911-80c0-0003fffe3137">Stimuli (0)</a>, <a href="/quiz/question/module/abcbe1fb-b82e-e911-80c0-0003fffe3137">Items (0)</a>, <a href="/design/testsection/module/abcbe1fb-b82e-e911-80c0-0003fffe3137">Test Sections (5)</a>, <a href="/design/test/module/abcbe1fb-b82e-e911-80c0-0003fffe3137">Tests  (1)</a></span></td><td role="gridcell"><span class="list-item-type">12 Feb</span></td></tr></tbody></table><div class="k-pager-wrap k-grid-pager k-widget" data-role="pager"><a class="k-link k-pager-nav k-state-disabled k-pager-first" data-page="1" href="#" title="Go to the first page" style="display: block;" tabindex="-1"><span class="k-icon k-i-seek-w">seek-w</span></a><a class="k-link k-pager-nav k-state-disabled" data-page="1" href="#" title="Go to the previous page" style="display: block;" tabindex="-1"><span class="k-icon k-i-arrow-w">arrow-w</span></a><ul class="k-pager-numbers k-reset" style="display: block;"><li class="k-current-page"><span class="k-link k-pager-nav">1</span></li><li><span class="k-state-selected">1</span></li><li><a tabindex="-1" href="#" class="k-link" data-page="2">2</a></li><li><a tabindex="-1" href="#" class="k-link" data-page="3">3</a></li><li><a tabindex="-1" href="#" class="k-link" data-page="4">4</a></li><li><a tabindex="-1" href="#" class="k-link" data-page="5">5</a></li><li><a tabindex="-1" href="#" class="k-link" data-page="6" title="More pages">...</a></li></ul><a class="k-link k-pager-nav" data-page="2" href="#" title="Go to the next page" style="display: block;" tabindex="-1"><span class="k-icon k-i-arrow-e">arrow-e</span></a><a class="k-link k-pager-nav k-pager-last" data-page="26" href="#" title="Go to the last page" style="display: block;" tabindex="-1"><span class="k-icon k-i-seek-e">seek-e</span></a><span class="k-pager-sizes k-label" style="display: inline-block;"><span title="" class="k-widget k-dropdown k-header" unselectable="on" role="listbox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-owns="" aria-disabled="false" aria-readonly="false" aria-activedescendant="813946bb-6c2c-4d3e-bac5-8d5585ffb064" aria-busy="false" style=""><span unselectable="on" class="k-dropdown-wrap k-state-default"><span unselectable="on" class="k-input">20</span><span unselectable="on" class="k-select"><span unselectable="on" class="k-icon k-i-arrow-s">select</span></span></span><select data-role="dropdownlist" style="display: none;"><option value="20">20</option><option value="50">50</option><option value="100">100</option></select></span>items per page</span><a class="k-pager-refresh k-link" href="/design/Module/_grid?page=&amp;menu=Author" title="Refresh"><span class="k-icon k-i-refresh">Refresh</span></a><span class="k-pager-info k-label" style="display: block;">1 - 20 of 505 items</span></div></div></div><div class="k-content" id="TabStrip-2" role="tabpanel" aria-hidden="true" aria-expanded="false"><div class="k-widget k-grid grid-container design-modules" id="Grid_2" data-role="jangrid"><div class="jui-grid-callout callout callout-info ng-scope ng-binding" style="">No items to display.</div><table role="grid" style="display: none;"><colgroup><col style="width:40px"><col><col></colgroup><thead class="k-grid-header" role="rowgroup"><tr role="row" class="ng-scope"><th class="k-header" data-field="IconClass" data-index="0" data-title="" scope="col" data-role="columnsorter"><a class="k-link" href="/design/Module/_grid?page=&amp;menu=Author&amp;Grid-sort=IconClass-asc">&nbsp;</a></th><th class="k-header" data-dir="asc" data-field="DisplayName" data-index="1" data-title="Display Name" scope="col" data-role="columnsorter"><a class="k-link" href="/design/Module/_grid?page=&amp;menu=Author&amp;Grid-sort=DisplayName-desc">Display Name<span class="k-icon k-i-arrow-n"></span></a></th><th class="k-header" data-field="LastUpdatedOn" data-index="2" data-title="Last Updated On" scope="col" data-role="columnsorter"><a class="k-link" href="/design/Module/_grid?page=&amp;menu=Author&amp;Grid-sort=LastUpdatedOn-asc">Last Updated On</a></th></tr></thead><tbody role="rowgroup"><tr class="k-no-data ng-scope"><td colspan="3"></td></tr></tbody></table><div class="k-pager-wrap k-grid-pager k-widget" data-role="pager"><a class="k-link k-pager-nav k-state-disabled k-pager-first" data-page="1" href="#" title="Go to the first page" style="display: none;"><span class="k-icon k-i-seek-w">seek-w</span></a><a class="k-link k-pager-nav k-state-disabled" data-page="0" href="#" title="Go to the previous page" style="display: none;"><span class="k-icon k-i-arrow-w">arrow-w</span></a><ul class="k-pager-numbers k-reset" style="display: none;"><li><span class="k-state-selected" data-page="1">1</span></li></ul><a class="k-link k-pager-nav k-state-disabled" data-page="2" href="#" title="Go to the next page" style="display: none;"><span class="k-icon k-i-arrow-e">arrow-e</span></a><a class="k-link k-pager-nav k-state-disabled k-pager-last" data-page="1" href="#" title="Go to the last page" style="display: none;"><span class="k-icon k-i-seek-e">seek-e</span></a><span class="k-pager-sizes k-label" style="display: none;"><span title="" class="k-widget k-dropdown k-header" unselectable="on" role="listbox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-owns="" aria-disabled="false" aria-readonly="false" aria-activedescendant="6a4a1e7b-ce44-46f3-b240-128e76559945" aria-busy="false" style=""><span unselectable="on" class="k-dropdown-wrap k-state-default"><span unselectable="on" class="k-input">20</span><span unselectable="on" class="k-select"><span unselectable="on" class="k-icon k-i-arrow-s">select</span></span></span><select data-role="dropdownlist" style="display: none;"><option value="20">20</option><option value="50">50</option><option value="100">100</option></select></span>items per page</span><a class="k-pager-refresh k-link" href="/design/Module/_grid?page=&amp;menu=Author" title="Refresh"><span class="k-icon k-i-refresh">Refresh</span></a><span class="k-pager-info k-label" style="display: none;">No items to display</span></div></div></div><div class="k-content" id="TabStrip-3" role="tabpanel" aria-hidden="true" aria-expanded="false"><div class="k-widget k-grid grid-container design-modules" id="Grid_3" data-role="jangrid"><div class="jui-grid-callout callout callout-info ng-scope ng-binding" style="">No items to display.</div><table role="grid" style="display: none;"><colgroup><col style="width:40px"><col><col></colgroup><thead class="k-grid-header" role="rowgroup"><tr role="row" class="ng-scope"><th class="k-header" data-field="IconClass" data-index="0" data-title="" scope="col" data-role="columnsorter"><a class="k-link" href="/design/Module/_grid?page=&amp;menu=Author&amp;Grid-sort=IconClass-asc">&nbsp;</a></th><th class="k-header" data-dir="asc" data-field="DisplayName" data-index="1" data-title="Display Name" scope="col" data-role="columnsorter"><a class="k-link" href="/design/Module/_grid?page=&amp;menu=Author&amp;Grid-sort=DisplayName-desc">Display Name<span class="k-icon k-i-arrow-n"></span></a></th><th class="k-header" data-field="LastUpdatedOn" data-index="2" data-title="Last Updated On" scope="col" data-role="columnsorter"><a class="k-link" href="/design/Module/_grid?page=&amp;menu=Author&amp;Grid-sort=LastUpdatedOn-asc">Last Updated On</a></th></tr></thead><tbody role="rowgroup"><tr class="k-no-data ng-scope"><td colspan="3"></td></tr></tbody></table><div class="k-pager-wrap k-grid-pager k-widget" data-role="pager"><a class="k-link k-pager-nav k-state-disabled k-pager-first" data-page="1" href="#" title="Go to the first page" style="display: none;"><span class="k-icon k-i-seek-w">seek-w</span></a><a class="k-link k-pager-nav k-state-disabled" data-page="0" href="#" title="Go to the previous page" style="display: none;"><span class="k-icon k-i-arrow-w">arrow-w</span></a><ul class="k-pager-numbers k-reset" style="display: none;"><li><span class="k-state-selected" data-page="1">1</span></li></ul><a class="k-link k-pager-nav k-state-disabled" data-page="2" href="#" title="Go to the next page" style="display: none;"><span class="k-icon k-i-arrow-e">arrow-e</span></a><a class="k-link k-pager-nav k-state-disabled k-pager-last" data-page="1" href="#" title="Go to the last page" style="display: none;"><span class="k-icon k-i-seek-e">seek-e</span></a><span class="k-pager-sizes k-label" style="display: none;"><span title="" class="k-widget k-dropdown k-header" unselectable="on" role="listbox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-owns="" aria-disabled="false" aria-readonly="false" aria-activedescendant="6e8e3bf3-7ec7-4c3e-a7d8-d54062a08bc6" aria-busy="false" style=""><span unselectable="on" class="k-dropdown-wrap k-state-default"><span unselectable="on" class="k-input">20</span><span unselectable="on" class="k-select"><span unselectable="on" class="k-icon k-i-arrow-s">select</span></span></span><select data-role="dropdownlist" style="display: none;"><option value="20">20</option><option value="50">50</option><option value="100">100</option></select></span>items per page</span><a class="k-pager-refresh k-link" href="/design/Module/_grid?page=&amp;menu=Author" title="Refresh"><span class="k-icon k-i-refresh">Refresh</span></a><span class="k-pager-info k-label" style="display: none;">No items to display</span></div></div></div><div class="k-content" id="TabStrip-4" role="tabpanel" aria-hidden="true" aria-expanded="false"><div class="k-widget k-grid grid-container design-modules" id="Grid_4" data-role="jangrid"><div class="jui-grid-callout callout callout-info ng-scope ng-binding" style="">No items to display.</div><table role="grid" style="display: none;"><colgroup><col style="width:40px"><col><col></colgroup><thead class="k-grid-header" role="rowgroup"><tr role="row" class="ng-scope"><th class="k-header" data-field="IconClass" data-index="0" data-title="" scope="col" data-role="columnsorter"><a class="k-link" href="/design/Module/_grid?page=&amp;menu=Author&amp;Grid-sort=IconClass-asc">&nbsp;</a></th><th class="k-header" data-dir="asc" data-field="DisplayName" data-index="1" data-title="Display Name" scope="col" data-role="columnsorter"><a class="k-link" href="/design/Module/_grid?page=&amp;menu=Author&amp;Grid-sort=DisplayName-desc">Display Name<span class="k-icon k-i-arrow-n"></span></a></th><th class="k-header" data-field="LastUpdatedOn" data-index="2" data-title="Last Updated On" scope="col" data-role="columnsorter"><a class="k-link" href="/design/Module/_grid?page=&amp;menu=Author&amp;Grid-sort=LastUpdatedOn-asc">Last Updated On</a></th></tr></thead><tbody role="rowgroup"><tr class="k-no-data ng-scope"><td colspan="3"></td></tr></tbody></table><div class="k-pager-wrap k-grid-pager k-widget" data-role="pager"><a class="k-link k-pager-nav k-state-disabled k-pager-first" data-page="1" href="#" title="Go to the first page" style="display: none;"><span class="k-icon k-i-seek-w">seek-w</span></a><a class="k-link k-pager-nav k-state-disabled" data-page="0" href="#" title="Go to the previous page" style="display: none;"><span class="k-icon k-i-arrow-w">arrow-w</span></a><ul class="k-pager-numbers k-reset" style="display: none;"><li><span class="k-state-selected" data-page="1">1</span></li></ul><a class="k-link k-pager-nav k-state-disabled" data-page="2" href="#" title="Go to the next page" style="display: none;"><span class="k-icon k-i-arrow-e">arrow-e</span></a><a class="k-link k-pager-nav k-state-disabled k-pager-last" data-page="1" href="#" title="Go to the last page" style="display: none;"><span class="k-icon k-i-seek-e">seek-e</span></a><span class="k-pager-sizes k-label" style="display: none;"><span title="" class="k-widget k-dropdown k-header" unselectable="on" role="listbox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-owns="" aria-disabled="false" aria-readonly="false" aria-activedescendant="9d71ae77-3758-442b-9795-c22b290f7af6" aria-busy="false" style=""><span unselectable="on" class="k-dropdown-wrap k-state-default"><span unselectable="on" class="k-input">20</span><span unselectable="on" class="k-select"><span unselectable="on" class="k-icon k-i-arrow-s">select</span></span></span><select data-role="dropdownlist" style="display: none;"><option value="20">20</option><option value="50">50</option><option value="100">100</option></select></span>items per page</span><a class="k-pager-refresh k-link" href="/design/Module/_grid?page=&amp;menu=Author" title="Refresh"><span class="k-icon k-i-refresh">Refresh</span></a><span class="k-pager-info k-label" style="display: none;">No items to display</span></div></div></div></div></div>
+
+
+
+
+    </div>
+	</div>
+
+
+                                       </div>
+                                   </div>
+
+                               </div>
+                                   <footer id="footer">
+                                       <div class="inner">
+                                           <div ng-show="languages &amp;&amp; languages.length > 1" class="language-selector btn-group dropup pull-right ng-hide" language-selector="">
+    <button class="btn button btn-secondary dropdown-toggle ng-binding dropdown-menu-initiated" data-toggle="dropdown">
+         <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu pull-right">
+        <!-- ngRepeat: language in languages -->
+    </ul>
+</div>
+                                           <rtp-quit-app></rtp-quit-app>
+                                           <nav>
+                                               <ul>
+                                                       <li class="about"><a href="#">About</a></li>
+                                                                                                          <li class="privacy"><a href="#">Privacy</a></li>
+                                                                                                          <li class="terms"><a href="#">Terms &amp; Conditions</a></li>
+                                                                                                          <li class="help"><a href="#">Help</a></li>
+                                                                                                  </ul>
+                                           </nav>
+                                               <a target="_blank" href="http://www.janison.com.au/" title="Janison Website" id="janisonClsLogoFooter">
+                                                   <img src="/content/images/logo-footer-insights.png" alt="Site Footer Logo" title="Powered by Janison" class="footer-logo">
+                                               </a>
+                                       </div>
+                                   </footer>
+                           </div>
+
+
+
+
+
+
+                           <!-- ~/Scripts/jquery.js.bundle -->
+<script crossorigin="anonymous" src="//mel0222assessmentsit.blob.core.windows.net/static/cls/0.1.3.59/scripts/jquery.min.js" type="text/javascript"></script>
+<!-- ~/Scripts/vendor.js.bundle -->
+<script crossorigin="anonymous" src="//mel0222assessmentsit.blob.core.windows.net/static/cls/0.1.3.59/scripts/vendor.min.js" type="text/javascript"></script>
+<!-- ~/Scripts/ng.js.bundle -->
+<script crossorigin="anonymous" src="//mel0222assessmentsit.blob.core.windows.net/static/cls/0.1.3.59/scripts/ng.min.js" type="text/javascript"></script>
+<!-- ~/Scripts/kendo.js.bundle -->
+<script crossorigin="anonymous" src="//mel0222assessmentsit.blob.core.windows.net/static/cls/0.1.3.59/scripts/kendo.min.js" type="text/javascript"></script>
+<!-- ~/Scripts/videojs.js.bundle -->
+<script crossorigin="anonymous" src="//mel0222assessmentsit.blob.core.windows.net/static/cls/0.1.3.59/scripts/videojs.min.js" type="text/javascript"></script>
+<!-- ~/Scripts/common.js.bundle -->
+<script crossorigin="anonymous" src="//mel0222assessmentsit.blob.core.windows.net/static/cls/0.1.3.59/scripts/common.min.js" type="text/javascript"></script>
+<!-- ~/Scripts/tinymce.js.bundle -->
+<script crossorigin="anonymous" src="//mel0222assessmentsit.blob.core.windows.net/static/cls/0.1.3.59/scripts/tinymce.min.js" type="text/javascript"></script>
+<!-- ~/app/vendor/application-insights/application-insights.js.bundle -->
+<script crossorigin="anonymous" src="//mel0222assessmentsit.blob.core.windows.net/static/cls/0.1.3.59/app/vendor/application-insights/application-insights.min.js" type="text/javascript"></script>
+    <script>
+        jan.security.antiForgery.tokenHtml = '<input name="__RequestVerificationToken" type="hidden" value="BvPoWjPSP9cW_Oo8KEW82Gh3kkjVcp5aNKRGBsabHA5_vt-0t260mt3j9-7fmBTZGZ44i4ViqdwEU2kDREzaDBz7B5U1" />';
+        jan.security.antiForgery.tokenFieldName = '__RequestVerificationToken';
+    </script>
+    <script src="//mel0222assessmentsit.blob.core.windows.net/static/cls/0.1.3.59/scripts/moment/en-au.js"></script>
+    <script src="//mel0222assessmentsit.blob.core.windows.net/static/cls/0.1.3.59/scripts/i18n/angular-locale_en-au.js"></script>
+    <script src="//mel0222assessmentsit.blob.core.windows.net/static/cls/0.1.3.59/scripts/kendo-2015-1-429/cultures/kendo.culture.en-au.min.js"></script>
+    <script>
+        moment.locale('en-au');
+        kendo.culture('en-AU');
+    </script>
+<script>jQuery(function(){jQuery("#TabStrip").kendoTabStrip({"select":TabStrip_Selected,"animation":false});});jQuery(function(){jQuery("#Grid").kendoJanGrid({"load":Grid_onLoad,"dataBinding":Grid_onDataBinding,"dataBound":Grid_onDataBound,"columns":[{"width":"40px","template":"\u003ci class=\u0027fa #=IconClass# icon-32\u0027\u003e\u003c/i\u003e","field":"IconClass","filterable":false,"encoded":true},{"title":"Display Name","attributes":{"class":"standout-column"},"template":"#= SubText #","field":"DisplayName","encoded":true},{"title":"Last Updated On","template":"\u003cspan class=\u0027list-item-type\u0027\u003e#= LastUpdatedOnHumanShortDate #\u003c/span\u003e","field":"LastUpdatedOn","format":"{0:g}","encoded":true}],"pageable":{"autoBind":false,"refresh":true,"pageSizes":[20,50,100],"buttonCount":5},"sortable":{"allowUnsort":false},"scrollable":false,"autoBind":false,"dataSource":{"type":(function(){if(kendo.data.transports['aspnetmvc-ajax']){return 'aspnetmvc-ajax';} else{throw new Error('The kendo.aspnetmvc.min.js script is not included.');}})(),"transport":{"read":{"url":"/design/Module/_grid"},"prefix":""},"pageSize":20,"page":1,"total":0,"serverPaging":true,"serverSorting":true,"serverFiltering":true,"serverGrouping":true,"serverAggregates":true,"sort":[{"field":"DisplayName","dir":"asc"}],"filter":[],"schema":{"data":"Data","total":"Total","errors":"Errors","model":{"fields":{"rowguid":{"editable":false,"type":"string"},"Module":{"type":"object"},"ExamCount":{"type":"number"},"TestCount":{"type":"number"},"TestSectionCount":{"type":"number"},"QuestionCount":{"type":"number"},"ResourceCount":{"type":"number"},"StimulusCount":{"type":"number"},"PageCount":{"type":"number"},"DisplayName":{"type":"string"},"LastUpdatedOn":{"type":"date","defaultValue":null},"ModuleType":{"editable":false,"type":"string"},"IconClass":{"editable":false,"type":"string"},"DetailUrl":{"editable":false,"type":"string"},"LastUpdatedOnHumanShortDate":{"editable":false,"type":"string"},"InItem":{"editable":false,"type":"object"},"SubText":{"editable":false,"type":"string"}}}}}});});
+jQuery(function() {
+    var ctrl = $('#Grid').data('kendoGrid');
+    var action = window.Grid_onLoad;
+    if (action) {
+        action.call(ctrl, { target: ctrl, sender: ctrl });
+    }
+});
+</script><script crossorigin="anonymous" src="//mel0222assessmentsit.blob.core.windows.net/static/cls/0.1.3.59/app/vendor/simple-scrollbar/simple-scrollbar.min.js" type="text/javascript"></script><script>
+APP.constant('recentlyViewedOptions', {"options":{"getRecentActivitiesUrl":"/home/getrecentactivities"},"data":{"url":"/design/module/index?menu=Author","menuVersion":"New","showGoToPage":true}});
+APP.constant('navSearchContext', [["Home",[["Delivery Dashboard","Invigilator Dashboard","/dashboard/testcentre?menu=Home"]]],["Author",[["Disciplines","","/design/discipline/index?menu=Author"],["Items","Questions","/quiz/question/index?menu=Author"],["Modules","","/design/module/index?menu=Author"],["Resources","","/resource/index?menu=Author"],["Stimuli","","/stimulus/index?menu=Author"],["Test Player Themes","","/design/testplayertheme/index?menu=Author"],["Test Sections","","/design/testsection/index?menu=Author"],["Tests and Surveys","","/design/test/index?menu=Author"]]],["People",[["Exam Centres","Organisation Units","/organisation/orgunit/index?menu=Manage%20People"],["Group Types","","/organisation/grouptype/index?menu=Manage%20People"],["Groups","","/organisation/group/index?menu=Manage%20People"],["Organisations","","/organisation/org/index?menu=Manage%20People"],["Users","","/organisation/user/index?menu=Manage%20People"]]],["Deliver",[["Assessment Events","","/assessmentevents/event/index?menu=Deliver"],["Delivery Dashboard","Invigilator Dashboard","/dashboard/testcentre?menu=Deliver"],["Open Test Sessions","","/monitor/testsession/opensessions?menu=Deliver"],["Test Administration Session","","/assessmentevents/session/orgunit?menu=Deliver"],["Test Attempts","Manage Attempts","/marking/assessmentattempt/index?menu=Deliver"],["Test Statistics Dashboard","Delivery Dashboard","/dashboard/testdelivery?menu=Deliver"]]],["Reports",[["Customisable Reports","","/customisablereports/report/index?menu=Reports"]]],["Integration",[["Bulk Operation Summary","","/settings/bulkoperationsummary/index?menu=Integration"],["Exams Integration External System Settings","","/externalsystemsetting/index?menu=Integration"],["Results Synchronisation","Test Attempt Results Synchronisation","/marking/assessmentattempt/testattemptsynchronisation?menu=Integration"]]],["Settings",[["About","","/settings/settings/about?menu=Settings"],["Assessment Event Settings","","/assessmentevents/settings/index?menu=Settings"],["Authentication","","/settings/authenticationsettings/authentication?menu=Settings"],["Browse Learning Settings","","/settings/browselearningsettings/index?menu=Settings"],["Custom Attributes","","/settings/taxonomy/index?menu=Settings"],["Dashboard Settings","","/dashboardsettings/settings/index?menu=Settings"],["Elmah Error Log","","/diagnostics/errorlog/index?menu=Settings"],["Email Settings","","/settings/settings/email?menu=Settings"],["Languages","","/settings/settings/languages?menu=Settings"],["Locations","","/settings/location/index?menu=Settings"],["Log4Net Error Log","","/diagnostics/log/index?menu=Settings"],["Manage Tags","","/managesocial/tags/index?menu=Settings"],["Marking Settings","","/marking/settings/index?menu=Settings"],["Menu","","/menu/index?menu=Settings"],["Message Templates","","/settings/emailtemplate/index?menu=Settings"],["Multifactor Authentication","","/settings/multifactorauthentication/index?menu=Settings"],["My Learning Dashboard Settings","","/settings/settings/mylearningdashboard?menu=Settings"],["Password Settings","","/settings/passwordsettings/index?menu=Settings"],["Personal Preference Codes","Disability Adjustment Codes","/pnp/pnp/index?menu=Settings"],["Printable Reports Settings","","/settings/printablereports/index?menu=Settings"],["QTI Settings","","/qtisettings/index?menu=Settings"],["Quick Add User Settings","","/quickadd/settings/adduserssettings?menu=Settings"],["Resource Settings","","/resourcesettings/index?menu=Settings"],["Roles","","/security/manager/index?menu=Settings"],["Scheduling","","/scheduling/scheduling/index?menu=Settings"],["Secure Delivery Settings","","/SecureDelivery/settings/index?menu=Settings"],["Self-enrolment Settings","","/SelfEnrolment/settings/index?menu=Settings"],["Site Authorisation","","/settings/siteauthorisation/setting?menu=Settings"],["Smart Tile Settings","","/Dashboard/smarttile/settings?menu=Settings"],["String Resources","","/settings/rstring/index?menu=Settings"],["Style & Images","","/settings/skin/index?menu=Settings"],["Sync Message","","/syncmessage/index?menu=Settings"],["Sync Message Summary","","/syncmessagesummary/index?menu=Settings"],["Templates","","/editor/contenttemplates/index?menu=Settings"],["Tenant Settings","","/settings/tenantsetting/index?menu=Settings"],["Test Delivery Settings","","/settings/testdelivery/index?menu=Settings"],["Test Designer Settings","","/design/settings/index?menu=Settings"],["User Settings","","/organisation/settings/index?menu=Settings"],["Venues","","/learningevents/trainingvenue/index?menu=Settings"],["Workflow definitions","","/admin/workflow/index?menu=Settings"]]]]);
+APP.constant('appInsightsInstrumentationKey', "40bd22f8-384b-4bba-b53e-cd5f51c69dce");
+</script>
+<script>
+        videojs.options.flash.swf = '//mel0222assessmentsit.blob.core.windows.net/static/cls/0.1.3.59/scripts/video-js/video-js.swf';
+    </script>
+
+
+                           <!-- Render custom JS if any -->
+                           <script type="text/javascript" src="/content/override.js"></script>
+
+
+
+
+
+
+
+
+
+
+<div class="cfp-hotkeys-container fade ng-scope" ng-class="{in: helpVisible}"><div class="cfp-hotkeys"><!-- ngIf: !header --><h4 class="cfp-hotkeys-title ng-scope ng-binding" ng-if="!header">Keyboard Shortcuts:</h4><!-- ngIf: header --><table><tbody><!-- ngRepeat: hotkey in hotkeys | filter:{ description: '!$$undefined$$' } --><tr ng-repeat="hotkey in hotkeys | filter:{ description: '!$$undefined$$' }" class="ng-scope"><td class="cfp-hotkeys-keys"><!-- ngRepeat: key in hotkey.format() track by $index --><span ng-repeat="key in hotkey.format() track by $index" class="cfp-hotkeys-key ng-scope ng-binding">?</span></td><td class="cfp-hotkeys-text ng-binding">Show / hide this help menu</td></tr><tr ng-repeat="hotkey in hotkeys | filter:{ description: '!$$undefined$$' }" class="ng-scope"><td class="cfp-hotkeys-keys"><!-- ngRepeat: key in hotkey.format() track by $index --><span ng-repeat="key in hotkey.format() track by $index" class="cfp-hotkeys-key ng-scope ng-binding">alt + x</span></td><td class="cfp-hotkeys-text ng-binding">Go to menu item</td></tr><tr ng-repeat="hotkey in hotkeys | filter:{ description: '!$$undefined$$' }" class="ng-scope"><td class="cfp-hotkeys-keys"><!-- ngRepeat: key in hotkey.format() track by $index --><span ng-repeat="key in hotkey.format() track by $index" class="cfp-hotkeys-key ng-scope ng-binding">esc</span></td><td class="cfp-hotkeys-text ng-binding">Dismiss dialog</td></tr></tbody></table><!-- ngIf: footer --><div class="cfp-hotkeys-close" ng-click="toggleCheatSheet()">×</div></div></div><div class="k-list-container k-popup k-group k-reset" data-role="popup" style="position: absolute; height: auto; display: none;"><div class="k-group-header" style="display:none"></div><ul unselectable="on" class="k-list k-reset" tabindex="-1" aria-hidden="true" aria-live="off" data-role="staticlist" role="listbox" style="overflow: auto; height: auto;"><li tabindex="-1" role="option" unselectable="on" class="k-item k-state-selected k-state-focused" aria-selected="true" data-offset-index="0" id="813946bb-6c2c-4d3e-bac5-8d5585ffb064">20</li><li tabindex="-1" role="option" unselectable="on" class="k-item" data-offset-index="1">50</li><li tabindex="-1" role="option" unselectable="on" class="k-item" data-offset-index="2">100</li></ul></div><div class="k-list-container k-popup k-group k-reset" data-role="popup" style="position: absolute; height: auto; display: none;"><div class="k-group-header" style="display:none"></div><ul unselectable="on" class="k-list k-reset" tabindex="-1" aria-hidden="true" aria-live="off" data-role="staticlist" role="listbox" style="overflow: auto; height: auto;"><li tabindex="-1" role="option" unselectable="on" class="k-item k-state-selected k-state-focused" aria-selected="true" data-offset-index="0" id="6a4a1e7b-ce44-46f3-b240-128e76559945">20</li><li tabindex="-1" role="option" unselectable="on" class="k-item" data-offset-index="1">50</li><li tabindex="-1" role="option" unselectable="on" class="k-item" data-offset-index="2">100</li></ul></div><div class="k-list-container k-popup k-group k-reset" data-role="popup" style="position: absolute; height: auto; display: none;"><div class="k-group-header" style="display:none"></div><ul unselectable="on" class="k-list k-reset" tabindex="-1" aria-hidden="true" aria-live="off" data-role="staticlist" role="listbox" style="overflow: auto; height: auto;"><li tabindex="-1" role="option" unselectable="on" class="k-item k-state-selected k-state-focused" aria-selected="true" data-offset-index="0" id="6e8e3bf3-7ec7-4c3e-a7d8-d54062a08bc6">20</li><li tabindex="-1" role="option" unselectable="on" class="k-item" data-offset-index="1">50</li><li tabindex="-1" role="option" unselectable="on" class="k-item" data-offset-index="2">100</li></ul></div><div class="k-list-container k-popup k-group k-reset" data-role="popup" style="position: absolute; height: auto; display: none;"><div class="k-group-header" style="display:none"></div><ul unselectable="on" class="k-list k-reset" tabindex="-1" aria-hidden="true" aria-live="off" data-role="staticlist" role="listbox" style="overflow: auto; height: auto;"><li tabindex="-1" role="option" unselectable="on" class="k-item k-state-selected k-state-focused" aria-selected="true" data-offset-index="0" id="9d71ae77-3758-442b-9795-c22b290f7af6">20</li><li tabindex="-1" role="option" unselectable="on" class="k-item" data-offset-index="1">50</li><li tabindex="-1" role="option" unselectable="on" class="k-item" data-offset-index="2">100</li></ul></div></body>
